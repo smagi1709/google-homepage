@@ -1,0 +1,155 @@
+body{
+	background-color: white;
+	margin: 0;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+	margin-left: auto;
+	margin-right: auto;
+	height: 611px;
+	position: relative;
+}
+
+nav, .rfoot{
+	float: right;
+	margin-right: 10px;
+	
+}
+.topnav li{
+	display: inline-block;
+	padding: 0 10px;
+	list-style-type: none;
+	line-height: 24px;
+}
+
+a{
+	text-decoration: none;
+	color:rgba(0,0,0,0.87)
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+main{
+	position: absolute;
+	top: 190px;
+	left: 50%;
+	margin-left: -152px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: block-inline;
+	width: 100%;
+	height: 100px;
+	background-color: rgb(240, 240, 240);
+}
+
+.topbutton{
+	color: white;
+	background-color: dodgerblue;
+	padding: 10px 13px;
+	line-height: 29px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.lfoot{
+	float: left;
+	margin-left: -35px;
+}
+
+.lang{
+	border-top: 1px solid rgb(212, 212, 212);
+	height: 49px;
+	margin-left: 15px;
+}
+
+.lfoot, .rfoot{
+	margin-bottom: 120px;
+}
+
+.text{
+	display: block;
+	margin-top: 17px;
+}
+
+input[type=text]{
+	width: 584px;
+	height: 44px;
+	border: 1px solid rgb(209, 209, 209);
+	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	border-radius: 2px;
+}
+
+input[type=text]:hover{
+	box-shadow: 2px 2px 2px 0px rgba(227,227,227,1);
+}
+
+input[type=text]:focus{
+	box-shadow: 2px 2px 2px 0px rgba(227,227,227,1);
+	border: 1px solid rgb(209, 209, 209);
+	outline: none;
+}
+
+#micro{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 410px;
+	bottom: 50px;
+}
+
+#search{
+	padding: 15px;
+	width: 100%;
+	display: block;
+	margin-left: -150px;
+}
+
+#btn{
+	text-align: center;
+	margin-left: -160px;
+}
+
+span:first-child{
+	padding-right: 3px;
+}
+
+span:last-child{
+	padding-left: 3px;
+}
+
+#btn button{
+	box-sizing: border-box;
+	height: 30px;
+	font-weight: bold;
+	border: none;
+	padding: 0 10px;
+	color: gray;
+	background-color: rgb(243, 243, 243);
+}
+
+#btn button:hover{
+	background-color: rgb(240, 240, 240);
+	color: black;
+	font-weight: bold;
+	border: 2px solid rgb(224, 224, 224);
+}
+
+.finalfoot{
+	border-top: 1px solid rgb(212, 212, 212);
+	height: 49px;
+}
+
+.finalfoot li{
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
